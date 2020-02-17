@@ -1,11 +1,11 @@
 # Money Transaction REST API
 A simple REST API application without DI and ORM framework for money transactions between user accounts
 
-####To run the application:
+#### To run the application:
 ```
 mvn exec:java
 ```
-######Or:
+###### Or:
 ```
 mvn clean package
 java -jar bank-rest-api-1.0-SNAPSHOT.jar
@@ -15,12 +15,12 @@ Fat Jar can be downloaded from [Here](https://drive.google.com/open?id=1ZZjBF86l
 
 _Please note: Server runs on port __9090__. This can be changed in __config.properties__ file with __spark.port__ property_
 
-####To run tests:
+#### To run tests:
 ```
 mvn clean verify
 ```
 
-####Technology stack:
+#### Technology stack:
 - Lightweight API Framework [Spark](http://sparkjava.com/) 
 - JOOQ for interaction with database
 - Jackson
@@ -30,7 +30,7 @@ mvn clean verify
 
 Database is populated with test data.
 
-####API endpoints:
+#### API endpoints:
 | HTTP METHOD | PATH | COMMENTS |
 | -----------| ------ | ------ |
 | GET | /accounts | get all accounts | 
@@ -41,7 +41,7 @@ Database is populated with test data.
 | POST | /transactions | perform transaction | 
 | GET | /transactions | get all transactions | 
 
-####Sample requests/responses:
+#### Sample requests/responses:
 
 ##### Get all accounts:
 - Method: GET
